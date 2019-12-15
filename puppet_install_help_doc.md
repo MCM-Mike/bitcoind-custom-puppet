@@ -26,8 +26,8 @@ apt-get install -y puppet-agent
 ## Post install (configuration) task
 1. Add each other (master and nodes) to everyone's /etc/hosts config file:
 ```
-78.47.103.102 master puppet
-78.47.36.235 btcnode01
+ip_addr_of_master master puppet
+ip_addr_of_node btcnode01
 ```
 You can also re-check everything works by pinging master or btcnode01 etc.
 
